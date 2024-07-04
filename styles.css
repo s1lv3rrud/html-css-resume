@@ -1,0 +1,28 @@
+header,
+main,
+footer {
+  padding: 20px;
+}
+
+header {
+  background-color: #efefef;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #efefef;
+  text-align: center;
+  color: #bbbbbb;
+  font-size: small;
+}
