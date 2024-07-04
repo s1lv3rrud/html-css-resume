@@ -17,7 +17,7 @@ header {
 
 main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
 }
 
@@ -32,4 +32,10 @@ footer {
   text-align: center;
   color: #bbbbbb;
   font-size: small;
+}
+
+@media (max-width: 991px) {
+  main {
+    flex-direction: column;
+  }
 }
